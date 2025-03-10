@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="publishing, wedding cards, print house, printing, graphics design, general contractors"
+    />
+    <title>About Us - Billion Concepts International Limited</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <style>
+      /* Additional styles for the enhanced about page */
+      .about-section {
+        margin-top: 10px;
+        padding: 60px 0;
+        background: #03080a;
+        color: var(--white-color);
+      }
+
+      .about-section:nth-child(even) {
+        background: #051118;
+      }
+
+      .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .section-title h2 {
+        font-size: 2.5em;
+        font-weight: 600;
+        color: #45f3ff;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 15px;
+      }
+
+      .section-title h2:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70%;
+        height: 2px;
+        background: rgba(69, 243, 255, 0.5);
+      }
+
+      .about-container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .two-column {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+      }
+
+      .column {
+        flex: 1;
+        min-width: 300px;
+      }
+
+      .image-column {
+        display: flex;
+        justify-content: center;
+      }
+
+      .image-column img {
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        border: 2px solid rgba(69, 243, 255, 0.3);
+      }
+
+      .text-column h3 {
+        font-size: 1.8em;
+        color: #45f3ff;
+        margin-bottom: 20px;
+      }
+
+      .text-column p {
+        margin-bottom: 15px;
+        line-height: 1.6;
+        font-weight: 300;
+      }
+
+      .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+      }
+
+      .service-card {
+        background: rgba(5, 20, 30, 0.7);
+        padding: 25px;
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 1px solid rgba(69, 243, 255, 0.2);
+      }
+
+      .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        border-color: rgba(69, 243, 255, 0.6);
+      }
+
+      .service-card h4 {
+        color: #45f3ff;
+        font-size: 1.3em;
+        margin-bottom: 15px;
+        position: relative;
+        padding-bottom: 10px;
+      }
+
+      .service-card h4:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 40px;
+        height: 2px;
+        background: #45f3ff;
+      }
+
+      .service-card p {
+        color: #e0e0e0;
+        font-size: 0.9em;
+      }
+
+      @media screen and (max-width: 768px) {
+        .two-column {
+          flex-direction: column;
+        }
+
+        .image-column {
+          order: 1;
+        }
+
+        .text-column {
+          order: 2;
+        }
+
+        .services-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <a href="index.html" class="logo">
+          <img src="./Images/rsz_logo.png" alt="Billion Concept logo" />
+        </a>
+        <div class="navigation">
+          <div class="nav-items">
+            <i class="uil uil-times nav-close-btn"></i>
+            <a href="index.html"><i class="uil uil-estate"></i>Home</a>
+            <a href="about.html"><i class="uil uil-info-circle"></i>About</a>
+            <a href="index.html#our-services"
+              ><i class="uil uil-briefcase"></i>Services</a
+            >
+            <a href="index.html#our-clients"
+              ><i class="uil uil-user-circle"></i>Clients</a
+            >
+            <a href="index.html#contact-us"
+              ><i class="uil uil-envelopes"></i>Contact</a
+            >
+          </div>
+        </div>
+        <i class="uil uil-apps nav-menu-btn"></i>
+      </div>
+    </header>
+
+    <!-- Company Overview Section -->
+    <section class="about-section">
+      <div class="about-container">
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+        <div class="two-column">
+          <div class="column text-column">
+            <p>
+              Billion Concepts International Limited was incorporated as a
+              Private Limited Liability Company under the Companies and Allied
+              Matters Decree of 1990. The company has its corporate offices
+              located at Legion House, 9 Kaura Namoda close, Area 3, Garki -
+              Abuja and Paper House, Plot 445, Behind Living Faith Church by
+              Commerce plaza, Durumi, Abuja. It commenced operation immediately
+              after its incorporation and obtaining the necessary permits,
+              licenses, and authorities to do business.
+            </p>
+            <p>
+              We are a multi-faceted company that provides comprehensive
+              services on Designing, Branding, Printing & Publishing, Building
+              Technology, Engineering, Procurement and Consultancy. We also
+              offer advisory services on company branding and provide programs
+              for developing corporate companies.
+            </p>
+            <p>
+              We have a pool of experienced professionals who have engaged in
+              many large scale projects, mostly involved in the production and
+              operation of corporate businesses. We have Coren certified
+              Engineers, Architects, Quantity Surveyors, Building Technologies,
+              certified professional Printers, certified Graphic designers,
+              Consultants and various specialists who are reliable, versatile
+              and very efficient with top-notch solutions to client's unique
+              demands.
+            </p>
+          </div>
+          <div class="column image-column">
+            <img src="Images/prints.jpg" alt="Our Team" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="about-section">
+      <div class="about-container">
+        <div class="section-title">
+          <h2>Our Vision & Mission</h2>
+        </div>
+        <div class="two-column">
+          <div class="column image-column">
+            <img src="Images/pointing.jpg" alt="Company Vision" />
+          </div>
+          <div class="column text-column">
+            <h3>Our Vision</h3>
+            <p>
+              Our Vision is to be the leading and best engineering construction
+              outfit in Africa while offering and providing high quality and
+              excellent services in engineering construction in a safe,
+              efficient, cost effective and environment friendly manner.
+            </p>
+
+            <h3>Our Position</h3>
+            <p>
+              We are a company that enjoys excellent reputation of high quality
+              services, we reach out to reputable companies and establishments
+              who consider high safety standards and high quality services as a
+              major aspect of their business by giving us the opportunities to
+              serve them.
+            </p>
+
+            <h3>Mission Statement & Corporate Strategy</h3>
+            <p>
+              Billion Concepts International Ltd. presents itself as an
+              alternative that can provide better service much more
+              economically.
+            </p>
+            <p>
+              Our primary focus is to provide high quality services in
+              Engineering, Construction, printing & branding, and other related
+              services spanning the full scope of the company's diverse services
+              in a safe, efficient, cost effective and environment friendly
+              manner.
+            </p>
+            <p>
+              We are particular about quality Management in all areas of service
+              deliveries and we have consistently demonstrated our
+              professionalism and desire to attain our client's expectations.
+              Our Staff and Engineers are among the most experienced,
+              strengthened by the utilization of automation in all company
+              departments, be it administrative, engineering or operations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section class="about-section">
+      <div class="about-container">
+        <div class="section-title">
+          <h2>Our Services</h2>
+        </div>
+        <p style="text-align: center; margin-bottom: 30px">
+          We provide quality services that meet the standard specifications and
+          requirements of our clients. Our prices are competitive, reasonable
+          and unbeatable to match our clients' budgetary constraints.
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <h4>Printing & Publishing</h4>
+            <p>
+              Graphics, Branding, Monogramming, Large Format, General Printing,
+              Commercials, Advocacy, Outdoor Advertising, Signage, 3D printing,
+              Screen printing, LED UV, Embossing, Engraving, Dye Sublimation,
+              and Publishing.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h4>Procurement</h4>
+            <p>
+              We equally engage in procurement of office Equipment, Machineries,
+              Vehicles and more.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h4>Consultancy & Training</h4>
+            <p>
+              Architecture and Urban Planning, Quantity Surveying,
+              Civil/Structural Electrical Designs, Mechanical and Electrical
+              Engineering Design, Rural Electrification Design, Land and Civil
+              Engineering Survey Design, Erosion/Flood Control with Drainage
+              Design, Environmental Engineering Design, Skill Acquisition and
+              Human Capital Development Training.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h4>Construction</h4>
+            <p>
+              Commercial, Industrial, Warehouse factory, Duplex, Residential
+              House, Multi-level Buildings, Office Complex, Housing Estates,
+              Institutional Schemes (Mosque and Church inclusive), Hotels
+              Theatres, Stadia and sporting Centers, Hospitals, Petrol and steel
+              Fabrication.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h4>Civil Engineering</h4>
+            <p>
+              Roads and River Bridges, Marine Structures, Fluid retaining
+              structures, Mechanical Engineering Installation, Electrical
+              Engineering Installation, Project Management, Property management
+              and building renovation. Ground Cabling Interior Design of Homes
+              and Offices, General Maintenance.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h4>General Contracting</h4>
+            <p>
+              We are capable of supplying Building materials, stationery,
+              Computer gadgets etc. within any specific amount of time you need.
+              Our services include but are not limited to door-to-door services,
+              supply of Computer gadgets, supply of Stationeries, and more.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section class="about-section">
+      <div class="about-container">
+        <div class="section-title">
+          <h2>Our Expert Team</h2>
+        </div>
+        <div class="two-column">
+          <div class="column text-column">
+            <p>
+              We select the best hands to put their knowledge and skills to
+              maximum outputs for our clients from our rich pool of
+              professionals. We are well aware that details is important for
+              fostering creativity, therefore set up a team that double-check
+              all jobs and ensure that the desired specifications are met. We do
+              this to promote new ideas, provide wider access to information,
+              and expand our network of talents to satisfy our esteemed clients.
+            </p>
+            <p>
+              Our team includes Coren certified Engineers, Architects, Quantity
+              Surveyors, Building Technologists, certified professional
+              Printers, certified Graphic designers, Consultants and various
+              specialists who are reliable, versatile and very efficient with
+              top-notch solutions to client's unique demands.
+            </p>
+            <p>
+              Together, we strive to provide the highest quality services to
+              meet and exceed our clients' expectations in every project we
+              undertake.
+            </p>
+          </div>
+          <div class="column image-column">
+            <img src="Images/teaam.png" alt="Our Professional Team" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footsec">
+      <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <div class="social">
+          <a href="https://wa.me/2348033208853"
+            ><i class="uil uil-whatsapp"></i
+          ></a>
+          <a href="https://www.facebook.com"
+            ><i class="uil uil-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com"
+            ><i class="uil uil-instagram"></i
+          ></a>
+          <a href="tel:+2348033208853"><i class="uil uil-phone-volume"></i></a>
+          <a href="mailto:billionconcepts@yahoo.com"
+            ><i class="uil uil-envelope-download"></i
+          ></a>
+        </div>
+
+        <ul class="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html#our-services">Services</a></li>
+          <li><a href="index.html#about-us">Equipments</a></li>
+          <li><a href="index.html#our-clients">Clients</a></li>
+          <li><a href="index.html#contact-us">Contact</a></li>
+        </ul>
+        <p class="copyright">
+          &COPY; Billion Concepts || 2022 <br />
+          Made with &#x2764; by
+          <span><a href="https://github.com/Zeeohn">Zion</a></span>
+        </p>
+      </footer>
+    </section>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
